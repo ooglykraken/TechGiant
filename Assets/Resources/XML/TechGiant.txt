@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+	<disciplines>
+		<discipline>
+			<products upgradeEffect=".15">
+				<product name="headphones" tag="Headphones" cost="19" retail="24.99" upgrade="500" time="30" viability="2000" customers="2000"/>
+				<product name="ipa" tag="IPA" cost="69" retail="88.99" upgrade="500" time="60" viability="3000" customers="3000"/>
+				<product name="mobilephone" tag="Mobile Phone" cost="99"  retail="129.99"  upgrade="500" time="120" viability="4000" customers="4000"/>
+				<product name="vr" tag="VR" cost="109" retail="144.99" upgrade="500" time="150" viability="5000" customers="5000"/>
+				<product name="hoverboard" tag="Hoverboard" cost="149" retail="195.99" upgrade="500" time="180" viability="6000" customers="6000"/>
+				<product name="tablet" tag="Tablet" cost="169" retail="224.99" upgrade="500" time="210" viability="7500" customers="7500"/>
+				<product name="gameconsole" tag="Game Console" cost="199" retail="264.99" upgrade="500" time="240" viability="8500" customers="8500"/>
+				<product name="tv" tag="TV" cost="259"  retail="344.99" upgrade="500" time="270" viability="10000" customers="10000"/>
+				<product name="smartwatch" tag="SmartWatch" cost="299" retail="394.99" upgrade="500" time="300" viability="12000" customers="12000"/>
+				<product name="robotvacuum" tag="RoboVacuum" cost="309" retail="409.99" upgrade="500" time="330" viability="15000" customers="15000"/>
+				<product name="drone" tag="Drone" cost="329" retail="434.99" time="360" viability="18000" upgrade="500" customers="18000"/>
+				<product name="desktop" tag="Desktop" cost="379" retail="499.99" time="390" viability="20000" upgrade="500" customers="20000"/>
+				<product name="camera" tag="Camera" cost="399" retail="524.99" time="420" viability="25000" upgrade="500" customers="25000"/>
+				<product name="laptop" tag="Laptop" cost="499" retail="659.99" time="420" viability="30000" upgrade="500" customers="30000"/>
+				<product name="smartcar" tag="SmartCar" cost="9999" retail="13199.99" upgrade="500" time="480" viability="35000" customers="35000"/>
+			</products>
+		</discipline>
+		<discipline>
+			<entertainments>
+				<entertainment name="podcast" tag="Podcast"  cost="1000" retail="200" upgrade="3000" time="120" viability="2880" buyers="0" advertisers="8" />
+				<entertainment name="book" tag="Book" cost="5000" retail="10" upgrade="25000" time="70560" viability="100800" buyers="100" advertisers="0" />
+				<entertainment name="album" tag="Album" cost="10000" retail="10" upgrade="50000" time="80640" viability="100800" buyers="200" advertisers="0"/> 
+				<entertainment name="movie" tag="Movie" cost="15000" retail="10" upgrade="75000" time="151200" viability="60480" buyers="500" advertisers="0"/> 
+				<entertainment name="mobilegame" tag="Mobile Game"  cost="20000" retail="3" upgrade="125000" time="181440" viability="100800" buyers="0" advertisers="15" />
+				<entertainment name="show" tag="Show" cost="30000" retail="8" upgrade="250000" time="201600" viability="100800" buyers="1000" advertisers="0" /> 
+				<entertainment name="videogame" tag="Video Game"  cost="50000" retail="20" upgrade="500000" time="302400" viability="50400" buyers="1500" advertisers="0" />
+			</entertainments>
+		</discipline>
+		<discipline>
+			<softwares>
+				<software name="tunetagger" tag="Tune Tagger"  cost="75000" retail="350" upgrade="56250" time="120960" viability="100800" buyers="30"/>
+				<software name="facechat" tag="FaceChat"  cost="100000" retail="400" upgrade="75000" time="161280" viability="141120" buyers="32"/>
+				<software name="swipedate" tag="Swipe Date"  cost="200000" retail="450" upgrade="150000" time="201600" viability="181440" buyers="45"/>
+				<software name="selfiegram" tag="Selfiegram"  cost="350000" retail="550" upgrade="262500" time="241920" viability="221760" buyers="55"/>
+				<software name="facecall" tag="FaceCall"  cost="500000" retail="650" upgrade="375000" time="282240" viability="262080"  buyers="65"/>
+				<software name="youvid" tag="YouVid"  cost="750000" retail="750" upgrade="562500" time="322560" viability="302400" buyers="75"/>
+				<software name="tritter" tag="Tritter"  cost="850000" retail="850" upgrade="637500" time="362880" viability="342720" buyers="85"/>
+				<software name="socialnetwork" tag="Social Network"  cost="1000000" retail="950" upgrade="750000" time="403200" viability="383040" buyers="95"/>
+			</softwares>
+		</discipline>
+		<discipline>
+			<services>
+				<service name="cloudstorage" tag="Cloud Storage" cost="1000000" retail="10" upgrade="750000" time="40320" viability="161280" customers="35000" profitMethod="monthly" costable="true" />
+				<service name="cable" tag="Cable"  cost="5000000" retail="20" upgrade="3750000" time="100800" viability="403200" customers="40000" profitMethod="monthly" costable="true" />
+				<service name="internet" tag="Internet"  cost="7500000" retail="25" upgrade="5625000" time="151200" viability="604800" customers="40000" profitMethod="monthly" costable="true" />
+				<service name="mobile" tag="Mobile"  cost="10000000" retail="40" upgrade="7500000" time="201600" viability="604800" customers="40000" profitMethod="monthly" costable="true" />
+				<service name="payfriend" tag="PayFriend"  cost="25000000" retail="3" upgrade="18750000" time="302400" viability="907200" customers="250000" profitMethod="transaction" costable="false" />
+				<service name="rideshare" tag="RideShare"  cost="50000000" retail="6" upgrade="37500000" time="352800" viability="806400" customers="300000" profitMethod="ride" costable="true" />
+				<service name="ticketstar" tag="TicketStar"  cost="75000000" retail="10" upgrade="56250000" time="151200" viability="655200" customers="350000" profitMethod="transaction" costable="true" />
+				<service name="resellbay" tag="ResellBay"  cost="100000000" retail="15" upgrade="75000000" time="403200" viability="1108800" customers="200000" profitMethod="transaction" costable="false" />
+				<service name="flixnet" tag="FlixNet"  cost="250000000" retail="12" upgrade="187500000" time="453600" viability="1411200" customers="2000000" profitMethod="monthly" costable="true" />
+				<service name="musicstreaming" tag="Music Streaming"  cost="350000000" retail="14" upgrade="262500000" time="50400" viability="1512000" customers="2500000" profitMethod="monthly" costable="true" />
+				<service name="stuffazon" tag="Stuffazon"  cost="500000000" retail="15" upgrade="375000000" time="403200" viability="1310400" customers="1000000" profitMethod="transaction" costable="true" />
+				<service name="cloudcomputing" tag="Cloud Computing" cost="750000000" retail="50000" upgrade="562500000" time="554400" viability="31080" customers="1500" profitMethod="monthly" costable="true" />
+				<service name="ai" tag="AI Analytics"  cost="1000000000" retail="1000" upgrade="750000000" time="604800" viability="2016000" customers="100000" profitMethod="monthly" costable="true" />
+				<service name="smartrocket" tag="Smart Rocket"  cost="5000000000" retail="10000000" upgrade="3750000000" time="1008000" viability="3024000" customers="10" profitMethod="rocket" costable="true" />
+			</services>
+		</discipline>
+		<discipline>
+			<marketing upgradeEffect=".01" scale=".05" number="10">
+				<tool name="cards" tag="Business Cards"  cost="50" affects="all+services"/>
+				<tool name="newspaper" tag="Newspaper"  cost="250" affects="all+entertainment"/>
+				<tool name="magazine" tag="Magazine"  cost="500" affects="all"/>
+				<tool name="directmail" tag="Direct Mail"  cost="1000" affects="all+services"/>
+				<tool name="commercial" tag="Commercial"  cost="5000" affects="all+entertainment"/>
+				<tool name="productplacement" tag="Product Placement"  cost="2500" affects="all+products"/>
+				<tool name="sponsorship" tag="Sponsorship"  cost="7500" affects="all"/>
+				<tool name="billboard" tag="Billboard"  cost="10000" affects="all"/>
+				<tool name="spokesperson" tag="Spokesperson"  cost="15000" affects="all"/>
+				<tool name="radio" tag="Radio"  cost="750" affects="all+entertainment"/>
+				<tool name="signspinner" tag="Sign Spinner" cost="100" affects="products"/>
+				<tool name="email" tag="Email"  cost="1250" affects="all"/>
+				<tool name="bussign" tag="Bus Sign"  cost="12500" affects="all"/>
+				<tool name="benchsign" tag="Bench Sign"  cost="4000" affects="all"/>
+				<tool name="subwaysign" tag="Subway Sign"  cost="6000" affects="all"/>
+				<tool name="browserad" tag="Browser Ad"  cost="1500"affects="all"/>
+				<tool name="mobilead" tag="Mobil Ad"  cost="3500" affects="all"/>
+				<tool name="website" tag="Website"  cost="25000" affects="all"/>
+			</marketing>
+		</discipline>
+		
+		<discipline>
+			<workers disciplineBenefit="1" researchPerDiscipline="1" pointPerWorker="1">
+				<worker name="seller" tag="Seller" discipline="marketing" cost="17500" affects="products"/>
+				<worker name="cashier" tag="Cashier" discipline="products" cost="12000" affects="products"/>
+				<worker name="stocker" tag="Stocker" discipline="products" cost="15000" affects="products"/>
+				<worker name="manager" tag="Manager" discipline="marketing" cost="25000" affects="products"/>
+				<worker name="it" tag="IT" discipline="software" cost="40000" affects="services"/>
+				<worker name="developer" tag="Developer" discipline="software" cost="60000" affects="services+software"/>
+				<worker name="designer" tag="Designer" discipline="software" cost="35000" affects="all"/>
+				<worker name="marketer" tag="Marketer" discipline="marketing" cost="42500" affects="marketing"/>
+				<worker name="security" tag="Security" discipline="services" cost="75000" affects="all"/>
+				<worker name="accountant" tag="Accountant" discipline="marketing" cost="55000" affects="all"/>
+				<worker name="lawyer" tag="Lawyer" discipline="marketing" cost="70000" affects="all"/>
+				<worker name="customerrep" tag="Customer Rep" discipline="services" cost="20000" affects="all"/>
+				<worker name="fieldtechnician" tag="Field Technician" discipline="services" cost="45000" affects="all"/>
+				<worker name="packer" tag="Packer" discipline="products" cost="16000" affects="products"/>
+				<worker name="driver" tag="Driver" discipline="services" cost="65000" affects="products"/>
+				<worker name="logistician" tag="Logistician" discipline="services" cost="50000" affects="products"/>
+				<worker name="assembler" tag="Assembler" discipline="products" cost="22500" affects="products"/>
+				<worker name="seo" tag="SEO" discipline="software" cost="37500" affects="all"/>
+				<worker name="analyst" tag="Analyst" discipline="software" cost="47500" affects="products+costs"/>
+				<worker name="videoproducer" tag="Video Producer" discipline="entertainment" cost="15000" affects="movies+shows"/>
+				<worker name="gameproducer" tag="Game Producer" discipline="entertainment" cost="25000" affects="games"/>
+				<worker name="musician" tag="Musician" discipline="entertainment" cost="10000" affects="albums"/>
+				<worker name="writer" tag="Writer" discipline="entertainment" cost="7500" affects="entertainment"/>
+				<worker name="audiohost" tag="Audio Host" discipline="entertainment" cost="27500" affects="podcasts+albums"/>
+				<worker name="engineer" tag="Engineer" discipline="products" cost="80000" affects="products+services"/>
+			</workers>
+		</discipline>
+	</disciplines>
+</doc>
